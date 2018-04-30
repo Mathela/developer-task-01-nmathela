@@ -1,0 +1,12 @@
+2018-04-30 12:02:59 INFO  IntegrationsConfig:48 --> intelligentNetworkService URL : jar:file:/Users/nmathela/Downloads/developer-task-01-nmathela/electronic-payments-business/target/electronic-payments-business-1.0.0.jar!/wsdls/IntelligentNetworkService.wsdl
+2018-04-30 12:03:01 INFO  RequestInterceptor:38 --> IN Get Partner Transactions :: Partner Code : hot-recharge
+2018-04-30 12:03:02 INFO  RequestInterceptor:58 --> [[SUCCESS] ] IN Get Partner Transactions Response :: Partner Code : hot-recharge, Response Code : 200, Narrative : Successful search
+2018-04-30 12:03:02 INFO  RequestInterceptor:97 --> IN ECredit Airtime :: Partner Code : hot-recharge, Mobile Number : hot-recharge
+2018-04-30 12:03:02 INFO  CreditsServiceImpl:39 --> Credit airtime Request : AirtimeTopupRequest{partnerCode='hot-recharge', msisdn='263773303584', amount=2.73, referenceNumber='TOPUP-REF-0123'}
+2018-04-30 12:03:02 INFO  CreditsServiceImpl:46 --> inCreditResponse airtime Request : INCreditResponse{responseCode='200', narrative='Successful credit request', msisdn='263773303584', balance=8.73}
+2018-04-30 12:03:02 INFO  CreditsServiceImpl:53 --> Finished Airtime Credit :: Msisdn : 263773303584, response code : 200
+2018-04-30 12:03:02 INFO  RequestInterceptor:116 --> [[SUCCESS] ] IN Airtime Credit Response :: Partner Code : hot-recharge, Mobile Number : hot-recharge, Response Code : 200, Narrative : Successful credit request
+2018-04-30 12:03:02 INFO  RequestInterceptor:69 --> IN Enquire Airtime Balance :: Partner Code : hot-recharge, Mobile Number : 774222278
+2018-04-30 12:03:02 INFO  EnquiriesServiceImpl:36 --> Enquire airtime balance :: Partner Code : hot-recharge, Msisdn : 263774222278
+2018-04-30 12:03:02 INFO  EnquiriesServiceImpl:47 --> Finished balance enquiry :: Msisdn : 263774222278, response code : 200
+2018-04-30 12:03:02 INFO  RequestInterceptor:87 --> [[SUCCESS] ] IN Enquire Airtime Balance Response :: Partner Code : hot-recharge, Mobile Number : 774222278, Response Code : 200, Narrative : Successful balance enquiry
