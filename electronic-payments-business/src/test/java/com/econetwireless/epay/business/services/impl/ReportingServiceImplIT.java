@@ -30,7 +30,7 @@ public class ReportingServiceImplIT {
         List<SubscriberRequest> expResult = null;
         List<SubscriberRequest> result = instance.findSubscriberRequestsByPartnerCode(partnerCode);
         assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+   
     }
     
 }

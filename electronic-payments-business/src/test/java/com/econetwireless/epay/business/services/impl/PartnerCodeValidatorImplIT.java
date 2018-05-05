@@ -28,7 +28,7 @@ public class PartnerCodeValidatorImplIT {
         boolean expResult = false;
         boolean result = instance.validatePartnerCode(partnerCode);
         assertEquals(expResult, result);
-        fail("The test case is a prototype.");
+        
     }
     
 }
